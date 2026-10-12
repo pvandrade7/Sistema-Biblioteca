@@ -61,7 +61,7 @@ public class BibliotecaService {
         }
 
         if (usuario == null || !livro.isDisponivel()){
-            System.out.println("Não foi possivel realizar emprestimo, livro indisponível");
+            System.out.println("Não foi possivel realizar emprestimo");
             return null;
         }
 
